@@ -1,6 +1,6 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("http://newyorkharborjetski.com/i/t/d66706a5d1.jpg");
       background-size: cover;
       color: white;
     }
@@ -9,6 +9,8 @@
     }
     h1 {
       font-size: 70px;
+      color: red; 
+      padding: 5px;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -29,12 +31,11 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
       }
       li {
         padding: 5px;
         display: block;
       }
-    }
+body{
+  font-family: 'Pacifico', cursive;
+}
